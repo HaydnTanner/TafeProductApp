@@ -18,6 +18,8 @@
         <TextBox x:Name="totalChargeTextBox" Height="24" Width="77" Margin="197,203,243,92"></TextBox>
         <TextBlock x:Name="TotalChargeAfterWrap" Width="150" Height="50" TextWrapping="Wrap" Margin="33,233,334,36">Total Charge after adding the wrap charge ($5)</TextBlock>
         <TextBox x:Name="totalChargeWrapTextBox" Height="24" Width="77" Margin="197,241,243,54"></TextBox>
+        <TextBlock x:Name="TotalChargeAfterGST" Width="150" Height="50" TextWrapping="Wrap" Margin="33,273,334,-4">Total Charge GST @10%</TextBlock>
+        <TextBox x:Name="totalChargeGSTTextBox" Height="24" Width="77" Margin="197,274,243,21"></TextBox>
 
 
     </Grid>
